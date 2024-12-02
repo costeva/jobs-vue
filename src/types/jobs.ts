@@ -1,7 +1,7 @@
 interface Job {
+  id: number;
   title: string;
   location: string;
   salary: number;
-  id: number;
 }
 export default Job;
